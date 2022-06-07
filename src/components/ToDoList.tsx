@@ -6,7 +6,6 @@ import CreateToDo from './CreateToDo';
 import ToDo from './ToDo';
 
 function ToDoList() {
-  // const toDos = useRecoilValue(toDoState);
   const [toDo, doing, done] = useRecoilValue(toDoSelector);
 
   return (
